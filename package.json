@@ -1,0 +1,30 @@
+{
+	"name": "stderr-error-parser",
+	"version": "1.0.0",
+	"description": "Parse error stack from stderr of a Node.js process",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha $(find test -name '*.test.js')"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/roshanadh/stderr-error-parser.git"
+	},
+	"keywords": [
+		"error",
+		"stack",
+		"stderr",
+		"process",
+		"parser"
+	],
+	"author": "Roshan Adhikari",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/roshanadh/stderr-error-parser/issues"
+	},
+	"homepage": "https://github.com/roshanadh/stderr-error-parser#readme",
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^8.0.1"
+	}
+}
