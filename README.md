@@ -2,7 +2,7 @@
 Node.js module to parse error stack from the stderr of a Node.js process
 
 ## Installation
-*stderr-error-parser* is available though [npm](npmjs.com/package/stderr-error-parser)
+*stderr-error-parser* is available though [npm](https://npmjs.com/package/stderr-error-parser)
 ```sh
 $ npm i stderr-err-parser
 ```
