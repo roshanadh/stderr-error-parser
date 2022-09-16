@@ -8,7 +8,7 @@ $ npm i stderr-err-parser
 ```
 
 ## Using
-```sh
+```javascript
 // import stderr-error-parser
 const parseError = require("stderr-error-parser");
 
@@ -31,12 +31,12 @@ exec(`node ${filePath}`, (error, stdout, stderr) => {
 		{
   			outputPart: 'Hello World!\n',
   			errorBody: {
-    			errorName: 'RangeError',
-    			errorMessage: 'This is a range error.',
-    			lineNumber: 2,
-    			columnNumber: 7,
-    			errorStack: 'RangeError: This is a range error.\n' +
-    			  '    at ....'
+				errorName: 'RangeError',
+				errorMessage: 'This is a range error.',
+				lineNumber: 2,
+				columnNumber: 7,
+				errorStack: 'RangeError: This is a range error.\n' +
+				  '    at ....'
   			}
 		}
 		*/
