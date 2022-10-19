@@ -1,6 +1,6 @@
 {
 	"name": "stderr-error-parser",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Parse error stack from stderr of a Node.js process",
 	"main": "index.js",
 	"scripts": {
